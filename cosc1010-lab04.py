@@ -108,11 +108,13 @@ for mi, ma in zip(max_temps, min_temps):
 average1 = total1/len(max_temps)
 average2 = total2/len(min_temps)
     
-print(average1)
-print(average2)
+print("The average maximum temperature is", average1)
+print("The average minimum temperature is", average2)
     
 
 # For the next part, determine the highest and lowest recorded temperatures.
 # HINT: You can find this information without using any logic or looping.
 
 
+print("The highest recorded temperature was", max(max_temps))
+print("The lowest recorded temperature was", min(min_temps))
